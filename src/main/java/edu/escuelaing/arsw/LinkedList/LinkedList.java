@@ -9,6 +9,9 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
     private Node<E> last;
     private int size;
 
+    /**
+     *  Constructor of the class LinkedList
+     */
     public LinkedList() {
         first = null;
         last = null;

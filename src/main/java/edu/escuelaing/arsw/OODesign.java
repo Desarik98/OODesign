@@ -14,6 +14,10 @@ public class OODesign
     public static Double mean;
     public static Double standardDeviation;
 
+    /**
+     * Main method that prints the mean and the standard deviation of numbers found on a file
+     * @param args file
+     */
     public static void main( String[] args ) {
         String fileName = args[0];
         Path path = Paths.get(fileName);
