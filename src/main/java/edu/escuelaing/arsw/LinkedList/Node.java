@@ -13,10 +13,6 @@ public class Node<E> {
         return value;
     }
 
-    public void setValue(E value) {
-        this.value = value;
-    }
-
     public Node<E> getNext() {
         return next;
     }

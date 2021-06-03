@@ -2,7 +2,6 @@ package edu.escuelaing.arsw;
 
 import edu.escuelaing.arsw.CentralTendencyMeasures.CentralTendencyCalculator;
 import edu.escuelaing.arsw.LinkedList.LinkedList;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
